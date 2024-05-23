@@ -1,0 +1,170 @@
+.userData{
+  z-index: 9999;
+  width: 30em;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow-y: scroll;
+  display: none;
+  background-color: #030F21;
+
+  .icon_close{
+    display: flex;
+    justify-content: space-between;
+    span{
+      padding: 0.5em;
+      cursor: pointer;
+      color: whitesmoke;
+      font-size: 30px;
+      &:hover{
+        color: wheat;
+      }
+    }
+  }
+}
+
+.text-white{
+  color: white !important;
+}
+.text-center{
+  text-align: center !important;
+}
+.d-none{
+  display: none !important;
+}
+
+button{
+  outline: 1px solid #1178a4;
+  &:hover{
+    opacity: 0.5;
+  }
+}
+
+.menu_user{
+  display: none;
+}
+
+.group_icon{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  cursor: pointer;
+  padding: 1em 0;
+  background-color: rgba(255,255,255, 0.1);
+  border-radius: 1em;
+  width: 90%;
+  margin: 1em auto auto;
+
+  &:hover{
+    background-color: cornflowerblue;
+  }
+
+  img{
+    width: 30px;
+    height: 30px;
+  }
+  p{
+    width: 8em;
+    color: white;
+    font-size: 14pt;
+    align-content: center;
+    margin-top: 6px;
+    margin-left: 1em;
+    //&:hover{
+    //  color: #3434f1;
+    //}
+  }
+}
+
+.content {
+  background-color: transparent !important;
+}
+
+.area {
+  padding: 1em;
+
+  .form{
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.link-btn-block{
+  padding: 1em !important;
+}
+
+.input-block{
+  padding-left: 0.5em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 1em;
+  background-color: rgba(255,255,255, 0.1) !important;
+  label{
+    color: rgba(255,255,255, 0.8) !important;
+  }
+
+  input{
+    background-color: transparent;
+    color: white;
+    border: none;
+    &:focus{
+      -webkit-box-shadow: none !important;
+      outline: none;
+      border: none;
+      box-shadow: none;
+    }
+
+  }
+
+  select{
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  span{
+    color: white;
+  }
+
+  .title2{
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+  }
+
+  #ip1, #ip2{
+    display: none;
+  }
+
+}
+
+.btn-store {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.h_item{
+
+  display: flex;
+  justify-content: space-around;
+  padding:4px;
+  margin-left: 1em;
+
+  p{
+    font-weight: bold;
+    color: white;
+    width: 50%;
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .userData {
+    width: 100vw;
+  }
+}

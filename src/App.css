@@ -1,0 +1,75 @@
+.bet-type,
+.bet-price,
+.btn-store,
+.bet-time,
+.tab-type > p {
+  color: white;
+}
+.btn-store {
+  color: aliceblue !important;
+}
+.sweet-alert > p {
+  color: black;
+}
+
+.dashboard .precautions {
+  padding: 0 !important;
+  box-shadow: #acb0df ;
+  background: none;
+
+}
+.precautions > .input-block {
+  height: auto;
+  padding-top: 4px;
+}
+
+.content__naptien {
+  font-size: 11px !important;
+}
+.drawing-toolbar + div {
+  background-color: rgb(15 16 17);
+}
+.wallet-frame {
+  background-color: rgba(15, 23, 28, 0.6) !important;
+}
+#wallet,
+#user-account,
+.price,
+.price > span,
+.list-item-name,
+.countdown-area,
+.countdown-area > div,
+.tab-type > p {
+  color: white;
+}
+@media (min-width: 1025px) {
+  .precautions {
+    width: 400px;
+  }
+  .money {
+    padding-right: 10px;
+  }
+
+  ol > li {
+    margin-left: -30px;
+    padding-right: 28px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 460px) {
+  .drawing-toolbar + div {
+    background-color: rgb(15 16 17);
+  }
+  #wallet {
+    color: white !important;
+  }
+  .chart .choice-section2 {
+    height: 0;
+  }
+}
+.confirm {
+  background-color: rgba(15, 23, 28, 0.6) !important;
+}
+.title {
+  font-size: 10pt;
+}
