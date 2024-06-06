@@ -246,7 +246,7 @@ function PanelTransfer(props) {
                       className="text-white text_nt"
                       style={{ fontSize: "12px" }}
                     >
-                      {" " + item.tentaikhoan}
+                      {" " + item.status === "Completed" ? item.tentaikhoan : user.tentaikhoan}
                     </span>
                   </div>
 
@@ -256,7 +256,7 @@ function PanelTransfer(props) {
                       className="text-white text_nt"
                       style={{ fontSize: "12px" }}
                     >
-                      {" " + item.status === "Completed" ? "Đang chờ xử lý" : item.sotaikhoan}
+                      {" " + item.status === "Completed" ? item.sotaikhoan : user.sotaikhoan}
                     </span>
                   </div>
 
